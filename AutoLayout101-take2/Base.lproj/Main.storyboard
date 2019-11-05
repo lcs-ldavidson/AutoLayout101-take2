@@ -61,7 +61,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KIRBY" translatesAutoresizingMaskIntoConstraints="NO" id="AhT-jk-Zc7">
                                 <rect key="frame" x="20" y="44" width="374" height="726"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="equalCentering" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-mU-du3">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-mU-du3">
                                 <rect key="frame" x="62" y="828" width="291" height="34"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqY-X6-zfV">
@@ -86,8 +86,11 @@
                         <constraints>
                             <constraint firstItem="AhT-jk-Zc7" firstAttribute="top" secondItem="TgD-NX-2Ct" secondAttribute="top" id="0da-Xg-iEs"/>
                             <constraint firstItem="AhT-jk-Zc7" firstAttribute="leading" secondItem="TgD-NX-2Ct" secondAttribute="leading" constant="20" id="5Mm-P4-sno"/>
+                            <constraint firstItem="TgD-NX-2Ct" firstAttribute="bottom" secondItem="8f6-mU-du3" secondAttribute="bottom" id="dMR-fw-bq8"/>
                             <constraint firstItem="AhT-jk-Zc7" firstAttribute="bottom" secondItem="TgD-NX-2Ct" secondAttribute="bottom" constant="-92" id="g4J-vK-2s4"/>
+                            <constraint firstItem="8f6-mU-du3" firstAttribute="leading" secondItem="TgD-NX-2Ct" secondAttribute="leading" constant="62" id="ham-AB-0q4"/>
                             <constraint firstItem="AhT-jk-Zc7" firstAttribute="trailing" secondItem="TgD-NX-2Ct" secondAttribute="trailing" constant="-20" id="n9r-Y6-g0f"/>
+                            <constraint firstItem="TgD-NX-2Ct" firstAttribute="trailing" secondItem="8f6-mU-du3" secondAttribute="trailing" constant="61" id="wRH-Yj-uSW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TgD-NX-2Ct"/>
                     </view>
